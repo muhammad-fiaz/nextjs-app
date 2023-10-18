@@ -30,6 +30,7 @@ const createNextjsApp = (projectName) => {
   const gitCheckoutCommand = `git clone --depth=1 ${templateRepoURL} "${repoName}"`;
   const installDepsCommand = `cd "${repoName}" && npm install`;
 
+
   console.log(`Creating a new Next.js app in ${repoName}...`);
   runCommand(gitCheckoutCommand);
 
@@ -45,6 +46,7 @@ const createNextjsApp = (projectName) => {
   console.log('Congrats! Your new Next.js app is ready!');
   console.log(`cd "${repoName}" && npm run dev`);
 };
+
 
 // Get the project name from the command line argument
 const projectName = process.argv[2];
