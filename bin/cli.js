@@ -33,6 +33,7 @@ const createNextjsApp = (projectName) => {
   console.log(`Creating a new Next.js app in ${repoName}...`);
   runCommand(gitCheckoutCommand);
 
+
   console.log(`Installing dependencies for ${repoName}...`);
   runCommand(installDepsCommand);
 
