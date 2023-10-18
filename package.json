@@ -5,6 +5,7 @@
     "nextjs-app": "./bin/cli.js"
   },
   "description": "Next.js app with TypeScript, Tailwind CSS, ESLint, Prettier, Next Sitemap, and more.",
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,7 +14,9 @@
     "sitemap": "next-sitemap --config next-sitemap.config.ts"
   },
   "keywords": [
+
     "nextjs",
+
     "typescript",
     "tailwindcss",
     "eslint",
