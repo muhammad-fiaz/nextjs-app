@@ -20,6 +20,7 @@ const createNextjsApp = (projectName) => {
 
   const projectDir = path.resolve(process.cwd(), repoName);
 
+
   // Check if the directory already exists
   if (fs.existsSync(projectDir)) {
     console.error(`Error: Directory '${repoName}' already exists.`);
@@ -39,6 +40,7 @@ const createNextjsApp = (projectName) => {
   console.log('Congrats! Your new Next.js app is ready!');
   console.log(`cd "${repoName}" && npm run dev`);
 };
+
 
 // Get the project name from the command line argument
 const projectName = process.argv[2];
